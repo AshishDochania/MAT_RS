@@ -9,7 +9,7 @@ import Contact from "./others/contactUs";
 
 
 const rout=createBrowserRouter([
-  {path:"/home",element:<HomePage />},
+  {path:"/",element:<HomePage />},
   {path:"/registration",element:<Registration />},
   {path:"/speakers",element:<Speakers />},
   {path:"/map",element:<Reach />},
