@@ -10,7 +10,8 @@ import Contact from "./others/contactUs";
 
 
 function App() {
-  return <Routes>
+  return <Router>
+  <Routes>
   <Route path="/" element={<HomePage />} />
   <Route path="/registration" element={<Registration />} />
   <Route path="/speakers" element={<Speakers />} />
@@ -18,7 +19,7 @@ function App() {
   <Route path="/accommodation" element={<Accomodation />} />
   <Route path="/contact" element={<Contact />} />
 </Routes>
-
+</Router>
 }
 
 export default App;
