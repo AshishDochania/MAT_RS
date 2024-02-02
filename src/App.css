@@ -5,7 +5,7 @@ body{
   background-position: 100%; */
   background-color: #FEBD2F;
   /* background-color: #ffae00; */
-  z-index: 5;
+  z-index: 0;
 }
 
 .navbar {
@@ -18,7 +18,7 @@ body{
   background-color: transparent;
   padding: 10px 20px;
   transition: background-color 0.3s ease;
-  z-index: 1000;
+  z-index: 2;
 }
 
 .navbar-right {
@@ -66,6 +66,56 @@ body{
   font-weight: 500;
 }
 
+.hamburger{
+  display: none;
+  color: white;
+  z-index: 0;
+}
+
+@keyframes rightcome {
+  from {
+    margin-left:100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+
+.ham-link{
+  top: 60px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(255, 174, 0);
+  height:35vh;
+  width: 100%;
+  margin-left: 0%;
+  transition: 1s;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  position: fixed;
+  animation: rightcome 0.55s ease-in-out;
+}
+
+.disable{
+  display: none;
+  transition: 1s;
+}
+
+.ham-link a{
+  text-align: center;
+  text-decoration: none;
+  color: wheat;
+  width: 10vh;
+  height: 2vh;
+}
+
+
+
+
+
 .body{
   /* background:linear-gradient(to right,#FEBD2F,#FFF1CE); */
   background-image: url("../public/finlagr1.png");
@@ -108,12 +158,14 @@ body{
   font-size:larger;
   margin-left: 7%;
   margin-right: 7%;
+  position:relative;
   
 }
 
 .logo-holder{
   display: none;
   justify-content: center;
+  z-index: 0;
 }
 .logo-holder img{
   margin: 1% 1% 0% 1%;
@@ -133,6 +185,7 @@ body{
   margin-left: 10%;
   margin-right: 10%;
   border-radius: 30px;
+  position: relative;
 }
 
 .about{
@@ -264,7 +317,7 @@ section p{
 .big{
   width: 80%;
   margin-left: 10%;
-  z-index: 5;
+  z-index: 0;
   
 }
 
@@ -394,7 +447,30 @@ button:hover{
   .body{
     background-image: none;
   }
+  .bb{
+    display: block;
+    padding-left: 5%;
+  padding-right: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
   
+  }
+  .about{
+    width: 100%;
+  }
+  .key{
+    width: 100%;
+    margin-left: 0%;
+  }
+  .navbar-right{
+    display: none;
+  }
+  .hamburger{
+    display: block;
+  }
+  .navbar{
+    background-color:#ffae00;
+  }
   
 }
 @media (max-width: 768px) {
