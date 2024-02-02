@@ -18,6 +18,7 @@ function App() {
   <Route path="/map" element={<Reach />} />
   <Route path="/accommodation" element={<Accomodation />} />
   <Route path="/contact" element={<Contact />} />
+  <Route path="/" element={<Navigate to="/home" />} />
 </Routes>
 </Router>
 }
