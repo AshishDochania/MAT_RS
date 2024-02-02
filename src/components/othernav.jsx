@@ -15,7 +15,7 @@ export default function BigNav(props){
       <span>MatRS-2024</span>
     </div>
     <div className='hamburger'>
-      <MenuIcon onClick={hamstr}/>
+      <MenuIcon onClick={hamstr} />
     </div>
     <div className="navbar-right">
         <a href="/home">Home</a>
