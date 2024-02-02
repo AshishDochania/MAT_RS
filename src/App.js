@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import './App.css';
 import HomePage from "./others/homepage";
 import Registration from "./others/register";
@@ -9,16 +10,15 @@ import Contact from "./others/contactUs";
 
 
 function App() {
-  return <Router>
-  <Switch>
-    <Route path="/" exact component={HomePage} />
-    <Route path="/registration" component={Registration} />
-    <Route path="/speakers" component={Speakers} />
-    <Route path="/map" component={Reach} />
-    <Route path="/accommodation" component={Accomodation} />
-    <Route path="/contact" component={Contact} />
-  </Switch>
-</Router>
+  return <Routes>
+  <Route path="/" element={<HomePage />} />
+  <Route path="/registration" element={<Registration />} />
+  <Route path="/speakers" element={<Speakers />} />
+  <Route path="/map" element={<Reach />} />
+  <Route path="/accommodation" element={<Accomodation />} />
+  <Route path="/contact" element={<Contact />} />
+</Routes>
+
 }
 
 export default App;
