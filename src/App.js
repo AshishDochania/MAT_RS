@@ -12,7 +12,7 @@ import Contact from "./others/contactUs";
 function App() {
   return <Router>
   <Routes>
-  <Route path="/" element={<HomePage />} />
+  <Route path="/home" element={<HomePage />} />
   <Route path="/registration" element={<Registration />} />
   <Route path="/speakers" element={<Speakers />} />
   <Route path="/map" element={<Reach />} />
