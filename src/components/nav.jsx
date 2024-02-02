@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from "react-router-dom";
 
 export default function NavBar(){
     useEffect(() => {
@@ -25,12 +26,12 @@ export default function NavBar(){
       <span>MatRS-2024</span>
     </div>
     <div class="navbar-right">
-        <a href="/home">Home</a>
-        <a href="/registration">Registration</a>
-        <a href="/speakers">Invited Speakers</a>
-        <a href="/map">How to Reach</a>
-        <a href="/accommodation">Accommodation</a>
-        <a href="/contact">Contact Us</a>
+        <Link to="/home">Home</Link>
+        <Link to="/registration">Registration</Link>
+        <Link to="/speakers">Invited Speakers</Link>
+        <Link to="/map">How to Reach</Link>
+        <Link to="/accommodation">Accommodation</Link>
+        <Link to="/contact">Contact Us</Link>
     </div>
 </div>
 }

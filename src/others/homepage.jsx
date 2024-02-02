@@ -7,6 +7,7 @@ import Read from "../components/towdes";
 import NavBar from "../components/nav";
 import RealFoot from "../components/foot";
 
+
 function HomePage() {
   const [isCardExpanded, setCardExpanded] = useState(0);
   const [content,Change]=useState([]);
