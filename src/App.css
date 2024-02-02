@@ -80,6 +80,14 @@ body{
     margin-left: 0%;
   }
 }
+@keyframes leftcome {
+  from {
+    margin-left:100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
 
 .ham-link{
   top: 60px;
@@ -87,16 +95,16 @@ body{
   bottom: 0;
   left: 0;
   background-color: rgb(255, 174, 0);
-  height:35vh;
+  height:98vh;
   width: 100%;
   margin-left: 0%;
   transition: 1s;
-  display: grid;
+  display: none;
   justify-content: center;
   align-items: center;
   z-index: 1;
   position: fixed;
-  animation: rightcome 0.55s ease-in-out;
+  padding-bottom: 5%;
 }
 
 .disable{
@@ -108,7 +116,6 @@ body{
   text-align: center;
   text-decoration: none;
   color: wheat;
-  width: 10vh;
   height: 2vh;
 }
 
@@ -467,6 +474,13 @@ button:hover{
   }
   .hamburger{
     display: block;
+  }
+  .ham-link{
+    display: grid;
+    animation: rightcome 0.55s ease-in-out;
+  }
+  .disable{
+    animation: leftcome 0.55s ease-in-out;
   }
   .navbar{
     background-color:#ffae00;
