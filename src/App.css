@@ -362,7 +362,7 @@ section p{
   transition: 0.7s;
 } */ 
 
-footer{
+.foot1{
   /* margin-top: 30px; */
   display:flex;
   flex-direction: column;
@@ -370,7 +370,7 @@ footer{
   margin-bottom: 2%;
 }
 
-footer button{
+.foot1 button{
   height: 50px;
   width: 160px;
   font-size: 130%;
@@ -410,12 +410,7 @@ button:hover{
 .last{
   background-color: rgb(255, 174, 0);
   padding-top: 1%;
-  padding-bottom: 1%;
-}
-
-.last a{
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-bottom: -22px;
 }
 
 .br{
@@ -452,6 +447,11 @@ button:hover{
   padding-right: 2%;
 }
 
+.frame p{
+  display: flex;
+  justify-content: center;
+}
+
 iframe{
   width:400px;
   height:300px;
@@ -468,6 +468,12 @@ iframe{
 
 }
 
+.contacts{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  height:40vh;
+}
+
 
 .contacts ul{
   list-style-type: none;
@@ -475,6 +481,15 @@ iframe{
 
 .dark{
   font-weight: 700;
+}
+
+.foot2{
+  display:flex;
+  justify-content: space-between;
+}
+.ico{
+  padding-top: 1%;
+  justify-content: end;
 }
 
 
@@ -558,6 +573,16 @@ iframe{
     width:300px;
     height:225px;
   }
+  
+  .foot2{
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .ico{
+    padding-bottom: 5%;
+    justify-content: center;
+  }
+
 }
 
 
