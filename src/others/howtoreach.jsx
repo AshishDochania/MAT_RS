@@ -1,5 +1,6 @@
 import RealFoot from "../components/foot";
 import BigNav from "../components/othernav";
+import "../cssfolder/howtoreach.css";
 
 function Reach() {
   return (

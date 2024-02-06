@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from "react-router-dom";
 import MenuIcon from '@mui/icons-material/Menu';
+import "../cssfolder/nav.css"
 
 export default function NavBar(){
     const [ham,changeham]=React.useState(false);

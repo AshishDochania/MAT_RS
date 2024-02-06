@@ -1,0 +1,147 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: transparent;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+  z-index: 2;
+}
+
+.navbar-right {
+  display: flex;
+}
+
+.navbar-right a {
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  width: 160px;
+}
+
+.navbar-left img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar-left span {
+  color: white;
+  font-size: larger;
+  
+}
+
+.hamburger{
+  display: none;
+  color: white;
+  z-index: 0;
+}
+
+.ham-link{
+  top: 20px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(255, 174, 0);
+  /* height:98vh; */
+  width: 100%;
+  margin-left: 0%;
+  transition: 1s;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  position: fixed;
+  padding-bottom: 5%;
+}
+
+.disable{
+  display: none;
+  transition: 1s;
+}
+
+.ham-link a{
+  text-align: center;
+  text-decoration: none;
+  color: wheat;
+  height: 2vh;
+}
+
+.navdrop{
+  background-color:rgb(255, 174, 0);
+  margin-top:60px;
+  width: 100%;
+}
+.navdrop section{
+  display: flex;
+  justify-content:baseline;
+  margin-left: 10%;
+  color: #404040;
+  font-size: 300%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  font-weight: 500;
+}
+
+.br{
+  margin-top: 2%;
+  width: 80%;
+  margin-left: 10%;
+  height: 1px;
+  border: 1px solid #fffdb4;
+}
+
+@keyframes rightcome {
+  from {
+    margin-left:100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+@keyframes leftcome {
+  from {
+    margin-left:100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+
+
+
+@media (max-width: 1000px){
+    .navbar-right{
+    display: none;
+  }
+  .hamburger{
+    display: block;
+  }
+  .ham-link{
+    display: grid;
+    animation: rightcome 0.55s ease-in-out;
+  }
+  .disable{
+    animation: leftcome 0.55s ease-in-out;
+  }
+  .navbar{
+    background-color:#ffae00;
+  }
+}
+
+@media (max-width: 508px) {
+  /* Your responsive styles go here */
+  .navdrop section{
+    font-size: 250%;
+  }
+}
