@@ -90,7 +90,7 @@ function HomePage() {
           <div className="bb">
             <div className="about">
               <h2>About MatRS-2024</h2>
-              <p style={{fontSize:"large"}}>MatRS (Materials Research Symposium, 2024) is a dedicated student symposium organized by the department of Metallurgical and Materials Engineering at Indian Institute of Technology Jodhpur (IITJ). The symposium provides a unique opportunity for students to present their research, broadening their expertise and preparing them for careers in science and nontechnical fields. It is an excellent forum for students to network and make professional contacts and opportunities to build their career under mentorship of the departments’ faculties.  MatRS is an open platform for UG and PG students only to nurture their thoughts and showcase their research in various non-traditional ways. MatRS focuses on structural, functional, computational materials and process metallurgy.</p>
+              <p style={{fontSize:"large",textAlign:"justify"}}>MatRS (Materials Research Symposium, 2024) is a dedicated student symposium organized by the department of Metallurgical and Materials Engineering at Indian Institute of Technology Jodhpur (IITJ). The symposium provides a unique opportunity for students to present their research, broadening their expertise and preparing them for careers in science and nontechnical fields. It is an excellent forum for students to network and make professional contacts and opportunities to build their career under mentorship of the departments’ faculties.  MatRS is an open platform for UG and PG students only to nurture their thoughts and showcase their research in various non-traditional ways. MatRS focuses on structural, functional, computational materials and process metallurgy.</p>
             </div>
             <div className="key">
               <h2>Key heighlights</h2>
@@ -170,7 +170,7 @@ function HomePage() {
 
       <Foot></Foot>
 
-      <div className="fire" style={{marginBottom:"30px"}}>
+      <div className="fire" style={{marginBottom:"30px",textAlign:"justify"}}>
             <h2>About The Departement</h2>
             <p>The Department of Metallurgical and Materials Engineering at IIT Jodhpur was established in 2017, and the Department is committed to high-quality education and research in the broad area of Materials Engineering. The Department continuously strives for excellence in teaching and research through innovative pedagogy and curriculum, by undertaking interdisciplinary projects, and through active collaborations with industries, R&D labs, and academia.</p>
         </div>
