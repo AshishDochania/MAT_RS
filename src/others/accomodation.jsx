@@ -12,8 +12,8 @@ function Accomodation(){
                         <h2>Accommodation Details :</h2>
                         <p>Rent of hostel room along with bedding-set & meal can be paid as follows :</p>
                         <ul>
-                            <li>350 - Accommodation on sharing basis</li>
-                            <li>450 - Single, subject to availability</li>
+                            <li>₹ 350 - Accommodation on sharing basis</li>
+                            <li>₹ 450 - Single, subject to availability</li>
                         </ul>
                     </div>
                     <div className="photo">
