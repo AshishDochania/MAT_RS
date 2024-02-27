@@ -2,7 +2,7 @@ const Des=[
 {
     key:1,
     describe:[
-    "Structural Labs, Functional Labs, Computational Labs.","Date & Time: 16th March  9:45 AM"]
+    "Structural Labs, Functional Labs, Computational Labs.","Date & Time: 16th March  2:15 PM"]
 },
 {
     key:2,
@@ -23,7 +23,7 @@ const Des=[
     key:3,
     describe:["UG and PG Oral/Poster Presentation "
     ,"Please submit your abstract through the dedicated (UG/PG) Oral/Poster Presentation link  If your research falls on any of these following domains: structural, functional, computational materials and process metallurgy. You need to write your abstract within 100 words."
-    ,"Date & Time: 3rd March"]
+    ,"Date & Time: 17th March 10AM-1PM"]
 
 },
 ];

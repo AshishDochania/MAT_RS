@@ -20,15 +20,10 @@ function Accomodation(){
 
                     </div>
                     <div className="payment">
-                        <h2>Payment Details :</h2>
-                        <p>If you need accommodation, please pay directly here :</p>
-                        <ul style={{listStyle:"none"}}>
-                            <li>Account Name : IIT Jodhpur Hostel Receipts and Fine Accounts</li>
-                            <li>Account No : 38448045180</li>
-                            <li>Bank details : SBI IIT Jodhpur</li>
-                            <li>IFSC Code : SBIN0014892</li>
-                        </ul>
-                        <p>Also fill up the form and upload the payment receipt.</p>
+                        <h2>Details of the contact person for accommodation:</h2>
+                        <p style={{margin:"0"}}>Ms. Aiswarya Sahu</p>
+                            <p>Email: sahu.16@iitj.ac.in</p>
+                        <p style={{margin:"0"}}>Mr. Mohit Singh</p><p>Email: singh.110@iitj.ac.in </p>
                     </div>
                 </div>
                 </div>

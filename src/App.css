@@ -89,6 +89,7 @@ body{
   margin-left: 10%;
   font-weight: 400;
   color: #404040;
+  /* color:rgb(107, 5, 5); */
   margin-bottom: 0px;
 }
 
@@ -100,6 +101,10 @@ section p{
 
 .bold{
   font-size: 300%;
+  font-weight:bold;
+}
+.bold1{
+  font-size: 200%;
   font-weight:bold;
 }
 
