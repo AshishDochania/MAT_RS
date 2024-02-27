@@ -1,6 +1,6 @@
 import RealFoot from "../components/foot";
 import BigNav from "../components/othernav";
-import SpeakersCC from "../components/speakerCard";
+// import SpeakersCC from "../components/speakerCard";
 
 function Speakers(){
     return (
