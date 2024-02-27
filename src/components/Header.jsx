@@ -9,6 +9,7 @@ export default function Header(){
             <section style={{padding:"20px"}}><h2>Departement of Metallurgical and Materials Enginnering</h2><h2>Indian Institute of Technology Jodhpur</h2></section>
             <section className="bold" style={{paddingTop:"0px",marginTop:"-10px"}}>MatRS-2024</section>
             <section className="bold">Materials Research Symposium</section>
+            <section className="bold">16th & 17th March 2024</section>
           </div>
     </>
 }

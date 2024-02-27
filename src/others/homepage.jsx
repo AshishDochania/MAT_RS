@@ -158,9 +158,9 @@ function HomePage() {
             <div className={`expanded-card ${isCardExpanded===0 ? 'visible' : ''}`}>
               <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
 
-
-                <CardEl val="1" des="Lab-visit & Demonstration Session" handle={handleClick0}></CardEl>
                 <CardEl val="2" des="Research Cookies Competition" handle={handleClick2}></CardEl>
+                <CardEl val="1" des="Lab-visit & Demonstration Session" handle={handleClick0}></CardEl>
+                {/* <CardEl val="2" des="Research Cookies Competition" handle={handleClick2}></CardEl> */}
                 <CardEl val="3" des="UG and PG Oral/Poster Presentation" handle={handleClick0}></CardEl>
 
               </div>
