@@ -39,6 +39,7 @@ export default function NavBar(){
     <div class="navbar-right">
         <Link to="/home">Home</Link>
         <Link to="/registration">Registration</Link>
+        <Link to="/timeline">Program Details</Link>
         <Link to="/speakers">Invited Speakers</Link>
         <Link to="/map">How to Reach</Link>
         <Link to="/accommodation">Accommodation</Link>
@@ -48,6 +49,7 @@ export default function NavBar(){
 <div className={ham?'ham-link':"disable"}>
     <Link to="/home">Home</Link>
     <Link to="/registration">Registration</Link>
+    <Link to="/timeline">Program Details</Link>
     <Link to="/speakers">Invited Speakers</Link>
     <Link to="/map">How to Reach</Link>
     <Link to="/accommodation">Accommodation</Link>

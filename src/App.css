@@ -93,6 +93,17 @@ body{
   margin-bottom: 0px;
 }
 
+.base-time{
+  /* display: flex; */
+  justify-content: center;
+  width: 80%;
+  margin-left: 10%;
+  font-weight: 400;
+  color: #404040;
+  /* color:rgb(107, 5, 5); */
+  margin-bottom: 0px;
+}
+
 
 section p{
   padding: 0;

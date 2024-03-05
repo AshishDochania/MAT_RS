@@ -20,6 +20,7 @@ export default function BigNav(props){
     <div className="navbar-right">
         <a href="/home">Home</a>
         <a href="/registration">Registration</a>
+        <a href="/timeline">Program Details</a>
         <a href="/speakers">Invited Speakers</a>
         <a href="/map">How to Reach</a>
         <a href="/accommodation">Accommodation</a>
@@ -29,6 +30,7 @@ export default function BigNav(props){
 <div className={ham?'ham-link':"disable"}>
     <Link to="/home">Home</Link>
     <Link to="/registration">Registration</Link>
+    <Link to="/timeline">Program Details</Link>
     <Link to="/speakers">Invited Speakers</Link>
     <Link to="/map">How to Reach</Link>
     <Link to="/accommodation">Accommodation</Link>
