@@ -1,20 +1,20 @@
 import RealFoot from "../components/foot";
 import BigNav from "../components/othernav";
-// import SpeakersCC from "../components/speakerCard";
+import SpeakersCC from "../components/speakerCard";
 
 function Speakers(){
     return (
         <div className="page">
         <BigNav topic="Invited Speakers" />
-                <div className="container-rot base ">
+                <div className="container-rot base sp">
                 {/* add sp in the classname */}
-                    {/* <div style={{margin:"4%",marginLeft:"8%"}}>
+                    <div style={{margin:"4%",marginLeft:"8%"}}>
                     <SpeakersCC id="0" place="1"></SpeakersCC>
-                    <SpeakersCC id="1" place="2"></SpeakersCC>
-                    </div> */}
-                    <div className="soon">
-                        <p>Will be updated soon !!</p>
+                    {/* <SpeakersCC id="1" place="2"></SpeakersCC> */}
                     </div>
+                    {/* <div className="soon">
+                        <p>Will be updated soon !!</p>
+                    </div> */}
                 </div>
                 <RealFoot />
         </div>
